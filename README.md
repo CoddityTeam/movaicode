@@ -61,7 +61,7 @@ L’Honneur, la Gloire ou un apéro (ou non exclusif)
 Au choix :
 
 * Créez une issue et copiez/collez votre movai code, avec des commentaires si besoin, ou
-* Si vous avez choisi de partir vers un projet complet, créez une issue et mentionnez le lien vers votre propre repo, ou
-* Créez un répertoire et ajoutez votre code, créez une branche et une PR vers master
+* Si vous avez choisi de partir vers un projet complet, créez une issue et mentionnez le lien vers votre propre repo
 
- BON CHANCE
+
+# BON CHANCE
