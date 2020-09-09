@@ -46,7 +46,7 @@ Tous :
  
 ## Condition de succès
 
-Cela doit **doit fonctionner**, le reste est accessoire. Ce qui importe, c’est que ce soit _moche_. _Hideux_. _Compliqué_. Bref _très movai_.
+Cela **doit fonctionner**, le reste est accessoire. Ce qui importe, c’est que ce soit _moche_. _Hideux_. _Compliqué_. Bref _très movai_.
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
