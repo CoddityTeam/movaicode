@@ -3,10 +3,10 @@
 # Movai code
 ## Grand jeux-concours de l'année du movai code
 
-Vous aussi vous en avez marre de vous forcer à bien coder alors qu’au fond, vous ne rêvez que de montrer au monde à quel point vous pouvez être nul ? On règle la question ici.
+Vous aussi vous en avez marre de vous forcer à **bien coder** alors qu’au fond, vous ne rêvez que de montrer au monde à quel point **vous pouvez être nul** ? On règle la question ici.
 
 ## Énoncé
-Écrire une fonction permettant de renverser une chaîne de caractères (par exemple "MOVAI CODE") de la manière _la plus horrible_, _la plus honteuse_ ou _la moins optimisée_ possible.
+Écrire une fonction permettant de **renverser une chaîne de caractères** (par exemple "MOVAI CODE") de la manière _la plus horrible_, _la plus honteuse_ ou _la moins optimisée_ possible.
 
 ## Langages acceptés
 
@@ -46,11 +46,11 @@ Tous :
  
 ## Condition de succès
 
-La fonction doit fonctionner, le reste est accessoire. Ce qui importe, c’est que ce soit moche. Hideux. Compliqué. Bref très movai.
+Cela doit **doit fonctionner**, le reste est accessoire. Ce qui importe, c’est que ce soit _moche_. _Hideux_. _Compliqué_. Bref _très movai_.
 
 ## Durée
 
-La première session se termine le 30 septembre, pour une publication des plus nuls début octobre.
+La première session se termine le **30 septembre**, pour une publication des pires réalisations début octobre.
 
 ## Gain
 
