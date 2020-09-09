@@ -48,6 +48,8 @@ Tous :
 
 Cela doit **doit fonctionner**, le reste est accessoire. Ce qui importe, c’est que ce soit _moche_. _Hideux_. _Compliqué_. Bref _très movai_.
 
+Note : vous pouvez tout à fait participer plusieurs fois.
+
 ## Durée
 
 La première session se termine le **30 septembre**, pour une publication des pires réalisations début octobre.
@@ -61,7 +63,8 @@ L’Honneur, la Gloire ou un apéro (ou non exclusif)
 Au choix :
 
 * Créez une issue et copiez/collez votre movai code, avec des commentaires si besoin, ou
-* Si vous avez choisi de partir vers un projet complet, créez une issue et mentionnez le lien vers votre propre repo
+* Si vous avez choisi de partir vers un projet complet, créez une issue et mentionnez le lien vers votre propre repo, ou
+* Si vous préférez, créez un sous-dossier à la racine, intégrez votre code, créez une branche et lancez une PR sur dev
 
 
 # BON CHANCE
