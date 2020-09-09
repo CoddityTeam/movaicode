@@ -1,3 +1,5 @@
+![](./movaicode.png)
+
 # Movai code
 ## Grand jeux-concours de l'année du movai code
 
