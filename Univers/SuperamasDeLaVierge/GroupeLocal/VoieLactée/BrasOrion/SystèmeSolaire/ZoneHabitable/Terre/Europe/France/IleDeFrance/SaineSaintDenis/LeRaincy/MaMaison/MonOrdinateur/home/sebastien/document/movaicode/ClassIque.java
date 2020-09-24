@@ -1,6 +1,6 @@
 package Univers.SuperamasDeLaVierge.GroupeLocal.VoieLactée.BrasOrion.SystèmeSolaire.ZoneHabitable.Terre.Europe.France.IleDeFrance.SaineSaintDenis.LeRaincy.MaMaison.MonOrdinateur.home.sebastien.document.movaicode;
 
-import Univers.SuperamasDeLaVierge.GroupeLocal.VoieLactée.BrasOrion.SystèmeSolaire.ZoneHabitable.Terre.Amérique.US.Texas.Dallas.MaMaison.MonOrdinateur.home.sebastien.document.movaicode.laClassADallas;
+import Universe.VirgoSuperCluster.LocalGroup.MilkyWay.OrionArm.SolarSystem.InhabitableArea.Earth.America.US.Texas.Dallas.MyHome.MyComputer.home.sebastian.document.movaicode.laClassADallas;
 
 import java.util.Scanner;
 
