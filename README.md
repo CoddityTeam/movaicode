@@ -1,4 +1,4 @@
-![](./movaicode.png)
+![](./movaicode-noel.png)
 
 # Movai code/2 - Spécial Noël 🎅
 ## Grand jeux-concours de l'année du movai code
@@ -13,7 +13,7 @@ Il s'agissait d'écrire une fonction permettant de **renverser une chaîne de ca
 - 🏆 Lauréat interne Coddity - Pascal pour son [code en assembleur](https://github.com/CoddityTeam/movaicode/issues/3)
 - 🏆 Prix d’honneur - Pierre pour ses [9 contributions](https://github.com/CoddityTeam/movaicode/issues?q=label%3Amovaicode%2F1+author%3Apinaraf) !!
 
-Vous pouvez retrouver les 50+ contributions [sur le repo]("https://github.com/CoddityTeam/movaicode/issues?q=label%3A%22movaicode%2F1%22+") et l'énoncé complet [sur le 1er readme]("./Movaicode-1-2020-09.md")
+Vous pouvez retrouver les 50+ contributions [sur le repo]("https://github.com/CoddityTeam/movaicode/issues?q=label%3A%22movaicode%2F1%22+") et l'énoncé complet [sur le 1er readme]("https://github.com/CoddityTeam/movaicode/blob/master/Movaicode-1-2020-09.md")
 
 ## Énoncé du 2ème défi
 Pour ce deuxième défi du Movai Code, on se plonge dans l'univers merveilleux de la Noël 🎄 et on vous propose d'écrire une fonction permettant de **compter le nombre d'occurrence de la chaîne "cadeau"** 🎁 dans une **liste de de chaîne de caractères**.
@@ -38,7 +38,7 @@ Note : vous pouvez tout à fait participer plusieurs fois.
 
 ## Durée
 
-La deuxième et dernière session de 2020 se termine le **24 décembre**, pour une publication des pires réalisations début octobre.
+La deuxième et dernière session de 2020 se termine le **24 décembre**, pour une publication des pires réalisations pour les fêtes.
 
 ## Gain
 
