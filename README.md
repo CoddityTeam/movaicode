@@ -1,80 +1,56 @@
-![](./movaicode-daftpunk.png)
+# movaicode3.ex 
+Effectue un surprenament cryptique "string split" sur le thème du groupe Daft Punk.
 
-# Movai Code épisode 3 - Spécial Daft Punk
-## Grand jeu-concours de développement
+## Elixir 🧪
+Eh non, `.ex` ce n'est pas `.exe` avec un `e` en moins, mais bien l'extension de fichier d'Elixir, un langage fabuleux !
 
-Vous aussi vous en avez marre de vous forcer à **bien coder** alors qu’au fond, vous ne rêvez que de montrer au monde à quel point **vous pouvez être nul** ? On règle la question ici.
+Elixir n'était pas dans la liste, mais il est si adapté à la tâche que je n'ai pu m'empécher de commettre cet exotisme.
 
-## Énoncé du 3ème défi
+En effet, Elixir offre des macros puissantes et une syntaxe surprenante. Pour le meilleur ... comme pour le pire.
 
-Nous avons tous été très touchés par l'annonce de la séparation des Daft Punk 😭. C'est pourquoi nous vous proposons de revisiter la fonction .split() :
-​
+## Pourquoi trois fichiers ?
+Pour faire simple, j'ai besoin de macros pour rendre le code plus beau et rapide, donc j'ai un fichier qui les déclare de façon magnifique `macros.ex`.
+
+Ducoup `split.ex` a besoin de `macros.ex` mais ne peut pas les importer tout seul car les macros font tomber le compilateur sous un tel charme qu'il en perd ses moyens.
+
+Ainsi on a besoin de `movaicode3.ex` qui vient charger `macros.ex` puis `split.ex` avec beaucoup d'efficacité et de clarté.
+
+## Comment le lancer ? 🥼
+Quoi ? Vous me dites que vous n'avez jamais codé en Elixir ???
+Bon, ça reste entre nous, mais intallez-le discrètement...
+
+Une fois Elixir 1.11.2 (+ Erlang/OTP 21) installé, faites `elixir movaicode3.ex` et amusez-vous bien :)
+
+-----
+## Les macros d'Elixir 🧩
+Vous ne comprenez pas mon code ? Normal. 
+
+Par contre vous voudriez peut-être comprendre pourquoi les macros Elixir sont la meilleur chose qui soit arrivée à l'informatique ces 20 dernières années !
+
+Exemple de macro qui parlera à tous les développeurs de loggers :
+```elixir
+#Quelque part
+defmacro log_info(string) do
+    prefix = "[INFO]" 
+    quote do
+        IO.puts(unquote(prefix) <> "[#{ <> __MODULE__}]> " <> string)
+    end
+end
 ```
-"Daft Punk"
+
+```elixir
+#Dans n'importe quel autre module (pensez namespace ou classe même si c'est pas du tout pareil)
+defmodule MonSuperProgramme do
+#   ...
+    def main() do
+        log_info("hello")
+    end
+#   ...
+end
 ```
-devrait retourner
+
+Ce qui nous donne à l'appel de `MonSuperProgramme.main()`:
 ```
-["Daft", "Punk"]
+[INFO][MonSuperProgramme]> hello
 ```
-_Toujours de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible._
-​
-## Condition de succès
-​
-Cela **doit fonctionner**, le reste est accessoire. Ce qui importe, c’est que ce soit _moche_, _pas malin_, _très movai_.
-
-Laissez libre court à votre imagination, ça semble facile de faire n'importe quoi mais finalement pas tant que ça.
-
-Note : vous pouvez tout à fait participer plusieurs fois.
-​
-## Durée
-
-Pour éviter tout poisson d'avril, vous avez jusqu'au 31 mars pour livrer vos infamies. Aucun retard ne sera accepté.
-
-## Gain
-
-L’Honneur, la Gloire, un apéro (post vaccination) et un magnifique trophée fait-main.
-
-## Comment jouer
-
-En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
-
-Ou bien via une PR ou en liant votre propre repo
-
-On ajoutera le label [movaicode/3](https://github.com/CoddityTeam/movaicode/issues?q=label%3Amovaicode%2F2+)
-
-## Langages acceptés
-
-Tous :
- - JS,
- - Python,
- - C,
- - C++,
- - Ruby,
- - Java,
- - Go,
- - Rust,
- - C#,
- - Scala,
- - Shell,
- - Perl,
- - Flash,
- - AS400/RPG/Cobol,
- - Natural,
- - Lisp,
- - Lua,
- - UnrealScript,
- - ADA,
- - Dart,
- - Kotlin,
- - R,
- - Fortran,
- - Basic,
- - Pascal,
- - VB,
- - SQL,
- - T-SQL,
- - assembleur
- - ...
- - et même PHP
-
-# BON CHANCE
+Bref, Elixir >> Go 😏
