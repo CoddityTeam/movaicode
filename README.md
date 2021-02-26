@@ -1,6 +1,8 @@
 # movaicode3.ex 
 Effectue un surprenament cryptique "string split" sur le thème du groupe Daft Punk.
 
+![gif de test](./test.gif)
+
 ## Elixir 🧪
 Eh non, `.ex` ce n'est pas `.exe` avec un `e` en moins, mais bien l'extension de fichier d'Elixir, un langage fabuleux !
 

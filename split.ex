@@ -14,7 +14,7 @@ end
             |> (&(&1 <> <<77>>        <>
   <<79>> <>  <<86>> <> <<65>>
       <> <<73, 67   , 79, 68, 69, 51>>)).() |> (&(&1 <>
-  <<hehe(),   hehe()        , hehe(), hehe(), hehe(), hehe(), haha()>>)).()), IO.puts())
+  <<hehe(),   hehe()        , hehe(), hehe(), hehe(), hehe(), haha()>>)).()), c_est_parti().puts())
 
       for ghi <-
         ?0..?@,
