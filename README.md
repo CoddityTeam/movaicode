@@ -86,3 +86,19 @@ Ce qui nous donne à l'appel de `MonSuperProgramme.main()`:
 ```
 [INFO][MonSuperProgramme]> hello
 ```
+
+## Bonus 3 : Pourquoi il y a des `<<0, 3>> <>...` partout ???
+En Elixir les modules (pensez namespace) sont référencés par des variables de type `atom`, un peu comme un membre d'une enum dans d'autres langages, sauf qu'ils n'ont pas de valeurs, ils sont juste là pour représenter quelque-chose. 
+
+Et comme dans plusieurs langages les membres d'enums peuvent être représentés par leur nom sous forme de String. En Elixir il suffit de rajouter `:` juste avant une String.
+
+En elixir les modules de la librairie standard sont des atoms du type `Elixir.<insérer nom module>`, par exemple `Elixir.String` (dans le code on a des raccourcis, on peut juste faire `String`). Ducoup on peut appeler les fonctions de `String` en faisant `:"Elixir.String".lafonction()`.
+
+Or, en Elixir les Strings sont manipulables comme des `bitstring`, des listes d'octets représentées par `<<octet0_en_base_10, octet1_en_base_10, octet2_en_base_10 ...>>` et on peut concaténer ces listes avec l'opérateur `<>`.
+
+Bref, dans le code je voulais compliquer la vie du lecteur alors j'ai appelé la librairie standard à l'aide des strings des modules sous forme de `bitstring`.
+
+Petit trick : `"mon string" <> <<0>>` permet de voir un string sous forme de `bitstring`.
+
+## Bonus 4 : C'est quoi |> ?
+En Elixir `ma_variable |> ma_fonction()` équivaut à faire `ma_fonction(ma_variable)`. Cela ne fonctionne que pour le premier paramètre.
