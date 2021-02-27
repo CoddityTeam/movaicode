@@ -90,7 +90,7 @@ Ce qui nous donne à l'appel de `MonSuperProgramme.main()`:
 ## Bonus 3 : Pourquoi il y a des `<<0, 3>> <>...` partout ???
 En Elixir les modules (pensez namespace) sont référencés par des variables de type `atom`, un peu comme un membre d'une enum dans d'autres langages, sauf qu'ils n'ont pas de valeurs, ils sont juste là pour représenter quelque-chose. 
 
-Et comme dans plusieurs langages les membres d'enums peuvent être représentés par leur nom sous forme de String. En Elixir il suffit de rajouter `:` juste avant une String.
+Et comme dans plusieurs langages les membres d'enums peuvent être représentés par leur nom sous forme de String. En Elixir il suffit de rajouter `:` juste avant une String pour obtenir un atom.
 
 En elixir les modules de la librairie standard sont des atoms du type `Elixir.<insérer nom module>`, par exemple `Elixir.String` (dans le code on a des raccourcis, on peut juste faire `String`). Ducoup on peut appeler les fonctions de `String` en faisant `:"Elixir.String".lafonction()`.
 
