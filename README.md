@@ -24,10 +24,40 @@ Bon, ça reste entre nous, mais intallez-le discrètement...
 Une fois Elixir 1.11.2 (+ Erlang/OTP 21) installé, faites `elixir movaicode3.ex` et amusez-vous bien :)
 
 -----
-## Les macros d'Elixir 🧩
+## Bonus 1 : Le string split en Elixir
+Voici l'algorithme écrit de façon idiomatique et propre que j'ai implémenté dans ma participation :
+
+```elixir
+@spec split(String.t()) :: [String.t()]
+def split(string) do
+    string
+    |> to_charlist()
+    |> split_charlist()
+    |> Enum.map(&(to_string(&1)))
+end
+
+@spec split_charlist(charlist()) :: [charlist()]
+def split_charlist(char_list) do split_charlist_rec(char_list, [[]]) end
+
+defp split_charlist_rec([char|next_chars], words) when [char] == ' ' do
+    split_charlist_rec(next_chars, [[]|words])
+end
+
+defp split_charlist_rec([char|next_chars], [current_word|other_words]) do
+    split_charlist_rec(next_chars, [current_word ++ [char]|other_words])
+end
+
+defp split_charlist_rec([], words) do Enum.reverse(words) end
+```
+
+Dans la vraie vie on fait un `String.split/1` parfaitement optimisé, les algorithmes en Elixir c'est pas trop ça...
+
+## Bonus 2 : Les macros d'Elixir 🧩
 Vous ne comprenez pas mon code ? Normal. 
 
 Par contre vous voudriez peut-être comprendre pourquoi les macros Elixir sont la meilleur chose qui soit arrivée à l'informatique ces 20 dernières années !
+
+Une macro, en Elixir du moins, c'est simplement un bout de code qui écrit du code lui-même.
 
 Exemple de macro qui parlera à tous les développeurs de loggers :
 ```elixir
@@ -39,6 +69,7 @@ defmacro log_info(string) do
     end
 end
 ```
+La macro ci-dessus recopie le code du print partout où on l'appelle, mais remplace un morceau par le nom du module appelant. En bref, elle a réécrit le code pour nous.
 
 ```elixir
 #Dans n'importe quel autre module (pensez namespace ou classe même si c'est pas du tout pareil)
@@ -55,4 +86,3 @@ Ce qui nous donne à l'appel de `MonSuperProgramme.main()`:
 ```
 [INFO][MonSuperProgramme]> hello
 ```
-Bref, Elixir >> Go 😏
