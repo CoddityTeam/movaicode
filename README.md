@@ -6,20 +6,20 @@ Effectue un surprenament cryptique "string split" sur le thème du groupe Daft P
 ## Elixir 🧪
 Eh non, `.ex` ce n'est pas `.exe` avec un `e` en moins, mais bien l'extension de fichier d'Elixir, un langage fabuleux !
 
-Elixir n'était pas dans la liste, mais il est si adapté à la tâche que je n'ai pu m'empécher de commettre cet exotisme.
+Elixir n'était pas dans la liste, mais il est si adapté à la tâche que je n'ai pu m'empêcher de commettre cet exotisme.
 
 En effet, Elixir offre des macros puissantes et une syntaxe surprenante. Pour le meilleur ... comme pour le pire.
 
 ## Pourquoi trois fichiers ?
 Pour faire simple, j'ai besoin de macros pour rendre le code plus beau et rapide, donc j'ai un fichier qui les déclare de façon magnifique `macros.ex`.
 
-Ducoup `split.ex` a besoin de `macros.ex` mais ne peut pas les importer tout seul car les macros font tomber le compilateur sous un tel charme qu'il en perd ses moyens.
+Ainsi, `split.ex` a besoin de `macros.ex` mais ne peut pas les importer tout seul car les macros font tomber le compilateur sous un tel charme qu'il en perd ses moyens.
 
 Ainsi on a besoin de `movaicode3.ex` qui vient charger `macros.ex` puis `split.ex` avec beaucoup d'efficacité et de clarté.
 
 ## Comment le lancer ? 🥼
-Quoi ? Vous me dites que vous n'avez jamais codé en Elixir ???
-Bon, ça reste entre nous, mais intallez-le discrètement...
+Comment ? Vous me dites que vous n'avez jamais codé en Elixir ???
+Bon, ça reste entre nous, mais installez-le discrètement...
 
 Une fois Elixir 1.11.2 (+ Erlang/OTP 21) installé, faites `elixir movaicode3.ex` et amusez-vous bien :)
 
@@ -50,12 +50,12 @@ end
 defp split_charlist_rec([], words) do Enum.reverse(words) end
 ```
 
-Dans la vraie vie on fait un `String.split/1` parfaitement optimisé, les algorithmes en Elixir c'est pas trop ça...
+Dans la vraie vie on fait un `String.split/1` parfaitement optimisé, les algorithmes en Elixir ce n'est pas trop le pied...
 
 ## Bonus 2 : Les macros d'Elixir 🧩
 Vous ne comprenez pas mon code ? Normal. 
 
-Par contre vous voudriez peut-être comprendre pourquoi les macros Elixir sont la meilleur chose qui soit arrivée à l'informatique ces 20 dernières années !
+Par contre vous voudriez peut-être comprendre pourquoi les macros Elixir sont la meilleure chose qui soit arrivée à l'informatique ces 20 dernières années !
 
 Une macro, en Elixir du moins, c'est simplement un bout de code qui écrit du code lui-même.
 
@@ -82,19 +82,19 @@ defmodule MonSuperProgramme do
 end
 ```
 
-Ce qui nous donne à l'appel de `MonSuperProgramme.main()`:
+Ce qui, à l'appel de `MonSuperProgramme.main()`, nous donne :
 ```
 [INFO][MonSuperProgramme]> hello
 ```
 
 ## Bonus 3 : Pourquoi il y a des `<<0, 3>> <>...` partout ???
-En Elixir les modules (pensez namespace) sont référencés par des variables de type `atom`, un peu comme un membre d'une enum dans d'autres langages, sauf qu'ils n'ont pas de valeurs, ils sont juste là pour représenter quelque-chose. 
+En Elixir les modules (pensez namespace) sont référencés par des variables de type `atom`, un peu comme un membre d'une enum dans d'autres langages, sauf qu'ils n'ont pas de valeurs, ils sont seulement là pour représenter quelque chose. 
 
-Et comme dans plusieurs langages les membres d'enums peuvent être représentés par leur nom sous forme de String. En Elixir il suffit de rajouter `:` juste avant une String pour obtenir un atom.
+Et comme dans plusieurs langages les membres d'enums peuvent être représentés par leur nom sous forme de String. En Elixir il suffit de rajouter `:` juste avant une String pour obtenir un `atom`.
 
 En elixir les modules de la librairie standard sont des atoms du type `Elixir.<insérer nom module>`, par exemple `Elixir.String` (dans le code on a des raccourcis, on peut juste faire `String`). Ducoup on peut appeler les fonctions de `String` en faisant `:"Elixir.String".lafonction()`.
 
-Or, en Elixir les Strings sont manipulables comme des `bitstring`, des listes d'octets représentées par `<<octet0_en_base_10, octet1_en_base_10, octet2_en_base_10 ...>>` et on peut concaténer ces listes avec l'opérateur `<>`.
+Or, en Elixir les Strings sont manipulables comme des `bitstring`, des listes d'octets représentés par `<<octet0_en_base_10, octet1_en_base_10, octet2_en_base_10 ...>>` et on peut concaténer ces listes avec l'opérateur `<>`.
 
 Bref, dans le code je voulais compliquer la vie du lecteur alors j'ai appelé la librairie standard à l'aide des strings des modules sous forme de `bitstring`.
 
