@@ -65,4 +65,4 @@ function factory_init() {
 
 factory_init();
 
-//console.log("Daft Punk aa".split());
+//console.log("Daft Punk".split());
