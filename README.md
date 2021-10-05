@@ -49,7 +49,7 @@ def switch_to_l_heure_d_hiver(heure_d_ete: datetime) -> datetime:
 _Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible._
 ​
 
-## Date de clôture des contributions : 31 octobre à 3h00 (ou à 2h00 ses pareil vu ke ses leur allakel on change lol)
+## Date de clôture des contributions : 31 octobre à 3h00 (ou à 2h00 ses pareilles vu ke ses leur allakel on change lol)
 
 
 ## Gain
