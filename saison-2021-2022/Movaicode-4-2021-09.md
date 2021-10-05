@@ -1,6 +1,6 @@
-![](./movaicode-1021.png)
+![](./movaicode-0921.png)
 
-# MOVAI CODE #4 - Le dernier changement d'heure is coming (askiparé)
+# MOVAI CODE #4 - Ses la rentré scolère
 ### Le pire concours de développement half-proudly by [Coddity](https://www.coddity.com/)
 
 
@@ -26,22 +26,21 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 Note : vous pouvez tout à fait participer plusieurs fois.
 
 
-## Énoncé du sujet : switch_to_l_heure_d_hiver()
+## Énoncé du sujet : is_there_mon_BFF_dans_ma_classe()
 
-Ça fait 156 ans qu'on en entend parler, apparemment c'est acté : le 31 octobre prochain se fera le dernier passage à l'heure d'hiver. 
+On va pas se mentir, on la connait tous cette angoisse de la rentrée... le moment où on découvre sa classe, avec qui on va partager l'année. 
 
-C'est trop triste... Rendez-vous compte que nous ne prononcerons plus jamais la phrase suivante : "Mais du coup on dort plus ou on dort moins mdrrrRRrrxDrr"
+Et le stress ultime c'est de savoir si on va être dans la même classe que son meilleur copain/copine, que l'on nomera BFF - pour Best Friend Forever <3
+​
 
-Pour rendre hommage à l'heure d'été (petit ange parti trop tôt), nous vous proposons d'écrire la fonction suivante : 
+Nous vous proposons d'écrire la fonction suivante : 
 
 ```python
-def switch_to_l_heure_d_hiver(heure_d_ete: datetime) -> datetime:
+def is_there_mon_BFF_dans_ma_classe(liste_des_eleves):
 
-    ''' 
-    Entrée : une date à l'heure d'été
-    Comportement : recule la date donnée d'une heure
-    Sortie : une date à l'heure d'hiver
-    '''
+    // Entrée : un tableau contenant des chaines de caractères
+    // Comportement : recherche la présence de la string "Jean-BFF <3" dans le tableau
+    // Sortie : true si "Jean-BFF <3" est dans la liste, false sinon
 
     pass
 ```
@@ -49,7 +48,7 @@ def switch_to_l_heure_d_hiver(heure_d_ete: datetime) -> datetime:
 _Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible._
 ​
 
-## Date de clôture des contributions : 31 octobre à 3h00 (ou à 2h00 ses pareil vu ke ses leur allakel on change lol)
+## Date de clôture des contributions : 31 septembre à 23h59
 
 
 ## Gain
@@ -63,7 +62,7 @@ Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apér
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/5](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F5)
+On ajoutera le label [movaicode/4](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F4)
 
 
 ## Comment gagner ?
