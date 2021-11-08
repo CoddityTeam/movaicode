@@ -36,10 +36,10 @@ Instant histoire-géographie (grosse dédicace à Mr. Salvi, best prof ever) : l
 
 ![](./carte-vignobles-beaujolais.png)
 
-Parce que l'union fait la force et l'onion fait la soupe, nous vous proposons d'écrire la fonction union_des_appellations_du_beaujolais_nouveau() qui prend 3 listes contenant les crus de chacune des appellations et qui retourne une liste contenant tous les crus.
+Parce que l'union fait la force et l'onion fait la soupe, nous vous proposons d'écrire la fonction union_des_appellations_du_beaujolais_nouveau() qui prend 2 listes contenant les crus de chacune des appellations et qui retourne une liste contenant tous les crus.
 
 ```python
-def union_des_appellations_du_beaujolais_nouveau(aoc_beaujolais, aoc_beaujolais_villages, aoc_crus_du_beaujolais: list[str]) -> list[str]:
+def union_des_appellations_du_beaujolais_nouveau(aoc_beaujolais, aoc_crus_du_beaujolais: list[str]) -> list[str]:
 
     ''' 
     Entrée : 3 listes de string contenant les crus de chacune des appellations
@@ -53,9 +53,9 @@ def union_des_appellations_du_beaujolais_nouveau(aoc_beaujolais, aoc_beaujolais_
 Les trois listes : (on vous fait gagner du temps pour tester tacapté)
 
 ```python
-aoc_beaujolais = ["beaujolais"]
-aoc_beaujolais_villages = ["beaujolais-villages"]
+
 aoc_crus_du_beaujolais = ["Julienas", "Saint-Amour", "Chénas", "Moulin-à-vent", "Fleurie", "Chiroubles", "Morgon", "Régnié", "Côte de Brouilly", "Brouilly"]
+aoc_beaujolais = ["beaujolais", "beaujolais-villages"]
 ```
 
 _Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible._
