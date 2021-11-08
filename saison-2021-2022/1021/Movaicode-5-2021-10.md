@@ -1,6 +1,6 @@
-![](./movaicode-1121.png)
+![](./movaicode-1021.png)
 
-# MOVAI CODE #6 - Beaujolais nouveau is coming ! 
+# MOVAI CODE #5 - Le dernier changement d'heure is coming (askiparé)
 ### Le concours du pire développeur - half-proudly by [Coddity](https://www.coddity.com/)
 
 
@@ -26,43 +26,30 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 Note : vous pouvez tout à fait participer plusieurs fois.
 
 
-## Énoncé du sujet : union_des_appellations_du_beaujolais_nouveau()
+## Énoncé du sujet : switch_to_l_heure_d_hiver()
 
-Autant Halloween on est d'accord pour dire que c'est une fête commerciale, par contre celui qui crache sur le Beaujolais Nouveau va avoir à faire à nous.
+Ça fait 156 ans qu'on en entend parler, apparemment c'est acté : le 31 octobre prochain se fera le dernier passage à l'heure d'hiver. 
 
-Beaucoup de parallèles entre le Beaujolais Nouveau et MOVAI CODE : c'est clairement mauvais mais à chaque fois que ça sort on ne peut pas s'empêcher de se joindre à la fête.
+C'est trop triste... Rendez-vous compte que nous ne prononcerons plus jamais la phrase suivante : "Mais du coup on dort plus ou on dort moins mdrrrRRrrxDrr"
 
-Instant histoire-géographie (grosse dédicace à Mr. Salvi, best prof ever) : le Beaujolais Nouveau provient de différents crus issus des appellations AOC beaujolais, AOC beaujolais-village et AOC "crus-du-beaujolais", comme détaillé dans cette belle illustration.
-
-![](./carte-vignobles-beaujolais.png)
-
-Parce que l'union fait la force et l'onion fait la soupe, nous vous proposons d'écrire la fonction union_des_appellations_du_beaujolais_nouveau() qui prend 3 listes contenant les crus de chacune des appellations et qui retourne une liste contenant tous les crus.
+Pour rendre hommage à l'heure d'été (petit ange parti trop tôt), nous vous proposons d'écrire la fonction suivante : 
 
 ```python
-def union_des_appellations_du_beaujolais_nouveau(aoc_beaujolais, aoc_beaujolais_villages, aoc_crus_du_beaujolais: list[str]) -> list[str]:
+def switch_to_l_heure_d_hiver(heure_d_ete: datetime) -> datetime:
 
     ''' 
-    Entrée : 3 listes de string contenant les crus de chacune des appellations
-    Comportement : unie les trois listes
-    Sortie : une listes de strings contenant tous les crus du Beaujolais Nouveau
+    Entrée : une date à l'heure d'été
+    Comportement : recule la date donnée d'une heure
+    Sortie : une date à l'heure d'hiver
     '''
 
     pass
 ```
 
-Les trois listes : (on vous fait gagner du temps pour tester tacapté)
-
-```python
-aoc_beaujolais = ["beaujolais"]
-aoc_beaujolais_villages = ["beaujolais-villages"]
-aoc_crus_du_beaujolais = ["Julienas", "Saint-Amour", "Chénas", "Moulin-à-vent", "Fleurie", "Chiroubles", "Morgon", "Régnié", "Côte de Brouilly", "Brouilly"]
-```
-
 _Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible._
 ​
 
-## Date de clôture des contributions : 30 novembre à 0h00
-### Date de sortie du Beaujolais Nouveau (pour info) : 18 novembre 
+## Date de clôture des contributions : 31 octobre à 3h00 (ou à 2h00 ses pareilles vu ke ses leur allakel on change lol)
 
 
 ## Gain
@@ -76,7 +63,7 @@ Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apér
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/6](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F6)
+On ajoutera le label [movaicode/5](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F5)
 
 
 ## Comment gagner ?
