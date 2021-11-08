@@ -42,7 +42,7 @@ Parce que l'union fait la force et l'onion fait la soupe, nous vous proposons d'
 def union_des_appellations_du_beaujolais_nouveau(aoc_beaujolais, aoc_crus_du_beaujolais: list[str]) -> list[str]:
 
     ''' 
-    Entrée : 3 listes de string contenant les crus de chacune des appellations
+    Entrée : 2 listes de string contenant les crus de chacune des appellations
     Comportement : unie les trois listes
     Sortie : une listes de strings contenant tous les crus du Beaujolais Nouveau
     '''
