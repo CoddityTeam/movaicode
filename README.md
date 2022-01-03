@@ -36,9 +36,9 @@ On commence l’année tranquillou-bilou avec un sujet assez simple (ça réserv
 ```python
 def changement_d_annee(annee_qui_se_termine: int) -> int:
 	'''
-	Entrée : un entier représentant l'année qui se termine
+    Entrée : un entier représentant l'année qui se termine
     Comportement : ajouter 1 à l'entier d'entrée
-	Sortie : un entier représentant l'année qui commence
+    Sortie : un entier représentant l'année qui commence
     '''
 	return annee_qui_commence
 ```
