@@ -1,7 +1,7 @@
-![](./movaicode-1121.png)
+![](./movaicode-0122.png)
 
-# MOVAI CODE #6 - Beaujolais nouveau is coming ! 
-### Le concours du pire développeur - half-proudly by [Coddity](https://www.coddity.com/)
+# MOVAI CODE #7 - MOVAISE ANNÉE 2022 🎉
+# Le concours du pire développeur - half-proudly by [Coddity](https://www.coddity.com/)
 
 
 ## Génèse du projet
@@ -25,45 +25,27 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
+## Énoncé du sujet : changement_d_annee()
 
-## Énoncé du sujet : union_des_appellations_du_beaujolais_nouveau()
+bonneannéemeilleursvoeuxbonnesantéeetpasdespieds. 
 
-Autant Halloween on est d'accord pour dire que c'est une fête commerciale, par contre celui qui crache sur le Beaujolais Nouveau va avoir à faire à nous.
+Voilà pour les commodités. Maintenant, passons aux choses sérieuses.
 
-Beaucoup de parallèles entre le Beaujolais Nouveau et MOVAI CODE : c'est clairement mauvais mais à chaque fois que ça sort on ne peut pas s'empêcher de se joindre à la fête.
-
-Instant histoire-géographie (grosse dédicace à Mr. Salvi, best prof ever) : le Beaujolais Nouveau provient de différents crus issus des appellations AOC beaujolais, AOC beaujolais-village et AOC "crus-du-beaujolais", comme détaillé dans cette belle illustration.
-
-![](./carte-vignobles-beaujolais.png)
-
-Parce que l'union fait la force et l'onion fait la soupe, nous vous proposons d'écrire la fonction union_des_appellations_du_beaujolais_nouveau() qui prend 2 listes contenant les crus de chacune des appellations et qui retourne une liste contenant tous les crus.
+On commence l’année tranquillou-bilou avec un sujet assez simple (ça réserve souvent des très belles surprises) : écrire la fonction **changement_d_annee** qui prend une année qui se termine en entrée et retourne la nouvelle année, c’est à dire l’année précédente incrémentée de 1. Ses toux.
 
 ```python
-def union_des_appellations_du_beaujolais_nouveau(aoc_beaujolais, aoc_crus_du_beaujolais: list[str]) -> list[str]:
-
-    ''' 
-    Entrée : 2 listes de string contenant les crus de chacune des appellations
-    Comportement : unie les trois listes
-    Sortie : une listes de strings contenant tous les crus du Beaujolais Nouveau
-    '''
-
-    pass
+def changement_d_annee(annee_qui_se_termine: int) -> int:
+		'''
+		Entrée : un entier représentant l'année qui se termine
+        Comportement : ajouter 1 à l'entier d'entrée
+		Sortie : un entier représentant l'année qui commence
+        '''
+		return annee_qui_commence
 ```
 
-Les trois listes : (on vous fait gagner du temps pour tester tacapté)
+*Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible.*
 
-```python
-
-aoc_crus_du_beaujolais = ["Julienas", "Saint-Amour", "Chénas", "Moulin-à-vent", "Fleurie", "Chiroubles", "Morgon", "Régnié", "Côte de Brouilly", "Brouilly"]
-aoc_beaujolais = ["beaujolais", "beaujolais-villages"]
-```
-
-_Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible._
-​
-
-## Date de clôture des contributions : 30 novembre à 0h00
-### Date de sortie du Beaujolais Nouveau (pour info) : 18 novembre 
-
+## Date de clôture des contributions : 31 janvier à 00h00
 
 ## Gain
 
@@ -76,7 +58,7 @@ Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apér
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/6](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F6)
+On ajoutera le label [movaicode/7](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F7)
 
 
 ## Comment gagner ?
