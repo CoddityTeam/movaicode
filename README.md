@@ -3,7 +3,11 @@
 # MOVAI CODE #8 - CHANDELEUR, go manger des crêpes 
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
+## [TL;DR] Sujet du mois
 
+Retirer le dernier élément d'une liste de strings. Bisous.
+
+_______________
 ## Génèse du projet
 
 Bien coder, optimiser, respecter des conventions... Y EN A MARRE ! 
@@ -11,7 +15,6 @@ Bien coder, optimiser, respecter des conventions... Y EN A MARRE !
 MOVAI CODE est une bulle d'air pour tous les développeurs. L'occasion de faire faire un infarct' à Robert C. Martin et exploser son linter.
 
 L'espace d'une fonction, nous vous donnons l'occasion de vous lâcher, de montrer au monde à quel point vous pouvez être **nul**. 
-
 
 ## Principe
 
