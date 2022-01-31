@@ -1,7 +1,7 @@
-![](./movaicode-0222.png)
+![](./movaicode-0122.png)
 
-# MOVAI CODE #8 - CHANDELEUR, go manger des crêpes 
-# Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
+# MOVAI CODE #7 - MOVAISE ANNÉE 2022 🎉
+# Le concours du pire développeur - half-proudly by [Coddity](https://www.coddity.com/)
 
 
 ## Génèse du projet
@@ -25,40 +25,40 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : mange_une_crepe()
+## Énoncé du sujet : changement_d_annee()
 
-Tous à poêle ! C'est l'heure de faire des crêpes !
+bonneannéemeilleursvoeuxbonnesantéeetpasdespieds. 
 
-Mais bon, s'agit pas que de les faire, à un moment donné faut le manger eul bazar. 
+Voilà pour les commodités. Maintenant, passons aux choses sérieuses.
 
-Alors pour cette édition, vas y pas qu'on va se faire une petite fonction à pas piquer des hannetons qui va taper une crêpe dans l'assiette. Let me introduce you la fonction **mange_une_crepe()** qui va retirer la dernière crêpe de la pile de crêpes (une liste de N strings "crêpe"). Après vous vous la tartinez comme vous voulez, ça nous regarde pas.
+On commence l’année tranquillou-bilou avec un sujet assez simple (ça réserve souvent des très belles surprises) : écrire la fonction **changement_d_annee** qui prend une année qui se termine en entrée et retourne la nouvelle année, c’est à dire l’année précédente incrémentée de 1. Ses toux.
 
 ```python
-def mange_une_crepe(pile_de_crepes: List[str]) -> List[str]:
+def changement_d_annee(annee_qui_se_termine: int) -> int:
     '''
-    Entrée : une liste de string "crêpe" représentant la pile de crêpes
-    Comportement : retire la dernière "crêpe" de la pile de crêpes
-    Sortie : une liste de string "crêpe" représentant la pile de crêpes restantes
+    Entrée : un entier représentant l'année qui se termine
+    Comportement : ajouter 1 à l'entier d'entrée
+    Sortie : un entier représentant l'année qui commence
     '''
-    return pile_de_crepes
+    return annee_qui_commence
 ```
 
 *Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible.*
 
-## Date de clôture des contributions : 28 février à 00h00
+## Date de clôture des contributions : 31 janvier à 00h00
 
 ## Gain
 
 Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apéro avec nous si vous êtes ou passez sur Paris !
 
-![](./tshirt-movaicode.png)
+![](../tshirt-movaicode.png)
 
 
 ## Comment jouer ? 
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/8](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F8)
+On ajoutera le label [movaicode/7](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F7)
 
 
 ## Comment gagner ?
