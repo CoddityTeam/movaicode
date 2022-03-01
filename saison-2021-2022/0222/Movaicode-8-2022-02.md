@@ -1,11 +1,11 @@
-![](./movaicode-0322.png)
+![](./movaicode-0222.png)
 
-# MOVAI CODE #9 - MARDI GRAS, qu'est-ce qu'on bouffe ??
+# MOVAI CODE #8 - CHANDELEUR, go manger des crêpes 
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
 
-Récupérer un élément aléatoire d'un array de string. 
+Retirer le dernier élément d'une liste de strings. Bisous.
 
 _______________
 ## Génèse du projet
@@ -28,37 +28,27 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : choisi_une_recette_aleatoire_de_mardi_gras()
+## Énoncé du sujet : mange_une_crepe()
 
-Bon clairement le mardi c'est pas ouf. Par contre le gras c'est ouf. Par voie de conséquence logique, "mardi gras" c'est pas mal ouf.
+Tous à poêle ! C'est l'heure de faire des crêpes !
 
-Mardi gras c'est Carnaval ([SAMBAAAAAA, DI JANEIRO](https://www.youtube.com/watch?v=HAiHEQblKeQ)) ! Mais c'est aussi la **BONNE GROSSE BOUFFE**.
+Mais bon, s'agit pas que de les faire, à un moment donné faut le manger eul bazar. 
 
-Le saviez-vous ? Chaque région de notre cher terroir français a sa propre spécialité de mardi gras (gaufres dans le nord, bugnes à Lyon, oreillettes en Provence etc.).
-
-Le problème avec ça, c'est qu'elles sont toutes aussi bonnes les unes que les autres... Alors comment choisir ? Le mieux, c'est de tirer au sort.
-
-On vous propose donc pour cette édition d'écrire la fonction **choisi_une_recette_aleatoire_de_mardi_gras()** qui va choisir aléatoirement une spécialité régionale de Mardi Gras dans la liste de toutes les spécialités.
+Alors pour cette édition, vas y pas qu'on va se faire une petite fonction à pas piquer des hannetons qui va taper une crêpe dans l'assiette. Let me introduce you la fonction **mange_une_crepe()** qui va retirer la dernière crêpe de la pile de crêpes (une liste de N strings "crêpe"). Après vous vous la tartinez comme vous voulez, ça nous regarde pas.
 
 ```python
-def choisi_une_recette_aleatoire_de_mardi_gras(les_specialites_regionales_de_mardi_gras: List[str]) -> str:
+def mange_une_crepe(pile_de_crepes: List[str]) -> List[str]:
     '''
-    Entrée : une liste de string contenant toutes les spécialités régionales de Mardi Gras
-    Comportement : séléctionne aléatoirement un élément de la liste
-    Sortie : un string réprésentant la spécialité séléctionnée
+    Entrée : une liste de string "crêpe" représentant la pile de crêpes
+    Comportement : retire la dernière "crêpe" de la pile de crêpes
+    Sortie : une liste de string "crêpe" représentant la pile de crêpes restantes
     '''
-    return specialite_tiree_au_hasard
-```
-
-Pour vous aider, voici la liste **les_specialites_regionales_de_mardi_gras** :
-
-```python
-les_specialites_regionales_de_mardi_gras = ["gaufres", "croustillons du ch'nord", "bugnes", "ganses", "pets de nonne", "roussettes", "merveilles", "crouchepettes", "bougnettes", "beugnot", "bottereaux", "oreillettes"]
+    return pile_de_crepes
 ```
 
 *Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible.*
 
-## Date de clôture des contributions : 31 mars à 23h59
+## Date de clôture des contributions : 28 février à 00h00
 
 ## Gain
 
@@ -71,7 +61,7 @@ Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apér
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/9](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F9)
+On ajoutera le label [movaicode/8](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F8)
 
 
 ## Comment gagner ?
