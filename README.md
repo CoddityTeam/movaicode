@@ -1,6 +1,6 @@
 ![](./movaicode-0422.png)
 
-# MOVAI CODE #10 - Un 9 de Pâques est caché dans le jardin de Mamie
+# MOVAI CODE 10 - Un 9 de Pâques est caché dans le jardin de Mamie
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
