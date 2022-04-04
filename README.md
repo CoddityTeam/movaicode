@@ -1,6 +1,6 @@
 ![](./movaicode-0422.png)
 
-# MOVAI CODE #9 - Un 9 de Pâques est caché dans le jardin de Mamie
+# MOVAI CODE #10 - Un 9 de Pâques est caché dans le jardin de Mamie
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
@@ -61,7 +61,7 @@ Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apér
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/9](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F9)
+On ajoutera le label [movaicode/9](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F10)
 
 
 ## Comment gagner ?
