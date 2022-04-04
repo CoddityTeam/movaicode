@@ -1,11 +1,11 @@
-![](./movaicode-0422.png)
+![](./movaicode-0322.png)
 
-# MOVAI CODE #9 - Un 9 de Pâques est caché dans le jardin de Mamie
+# MOVAI CODE #9 - MARDI GRAS, qu'est-ce qu'on bouffe ??
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
 
-Recoder indexOf() i.e. trouver le plus petit index d'un caractère donné dans une string.
+Récupérer un élément aléatoire d'un array de string. 
 
 _______________
 ## Génèse du projet
@@ -28,27 +28,37 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : trouve_un_9_de_paques()
+## Énoncé du sujet : choisi_une_recette_aleatoire_de_mardi_gras()
 
-Qui dit avril dit "Trop hâte de vomir d'une overdose de Kinder suprise". Toutefois, afin de bénéficier de ce moment de complicité avec la cuvette de vos toilettes à 2 du mat', il faut d'abord trouver les oeufs que mamie a caché dans le jardin.
+Bon clairement le mardi c'est pas ouf. Par contre le gras c'est ouf. Par voie de conséquence logique, "mardi gras" c'est pas mal ouf.
 
-Vous saviez vous que "un oeuf" et "un 9" ça se dit pareil ? Perso quand je l'ai appris j'étais sur le cul. Enfin bref.
+Mardi gras c'est Carnaval ([SAMBAAAAAA, DI JANEIRO](https://www.youtube.com/watch?v=HAiHEQblKeQ)) ! Mais c'est aussi la **BONNE GROSSE BOUFFE**.
 
-Du coup, pour ce mois de fête du Lapinou - autrement appelé Pâques - on vous propose d'écrire la fonction **trouve_un_9_de_paques()** qui va chercher le premier "9" dans une chaîne de caratère donnée - appélée jardin_de_mamie pour des raisons de réalisme - et retourne l'index de celui-ci - ou sa position dans le jardin de mamie si l'on file la métaphore takaptéfrère.
+Le saviez-vous ? Chaque région de notre cher terroir français a sa propre spécialité de mardi gras (gaufres dans le nord, bugnes à Lyon, oreillettes en Provence etc.).
 
-**Évidemment on veut du code écoeurant à souhait. Le genre de code qui te met un placage cathédrale à l'estomac. On veut des boucles for qui font du sparring avec ta glotte.**
+Le problème avec ça, c'est qu'elles sont toutes aussi bonnes les unes que les autres... Alors comment choisir ? Le mieux, c'est de tirer au sort.
+
+On vous propose donc pour cette édition d'écrire la fonction **choisi_une_recette_aleatoire_de_mardi_gras()** qui va choisir aléatoirement une spécialité régionale de Mardi Gras dans la liste de toutes les spécialités.
 
 ```python
-def trouve_un_9_de_paques(le_jardin_de_mamie: str) -> int:
+def choisi_une_recette_aleatoire_de_mardi_gras(les_specialites_regionales_de_mardi_gras: List[str]) -> str:
     '''
-    Entrée : jardin_de_mamie une chaîne de caractère
-    Comportement : trouve l'index de la première itération du caractère '9' dans la chaîne de caractère en entrée
-    Sortie : position_d_un_9_de_paques un entier représentant l'index de la première itération du caractère '9'
+    Entrée : une liste de string contenant toutes les spécialités régionales de Mardi Gras
+    Comportement : séléctionne aléatoirement un élément de la liste
+    Sortie : un string réprésentant la spécialité séléctionnée
     '''
-    return position_d_un_9_de_paques
+    return specialite_tiree_au_hasard
 ```
 
-## Date de clôture des contributions : 30 avril à 23h59
+Pour vous aider, voici la liste **les_specialites_regionales_de_mardi_gras** :
+
+```python
+les_specialites_regionales_de_mardi_gras = ["gaufres", "croustillons du ch'nord", "bugnes", "ganses", "pets de nonne", "roussettes", "merveilles", "crouchepettes", "bougnettes", "beugnot", "bottereaux", "oreillettes"]
+```
+
+*Et bien évidemment, de la manière la plus exécrable, la plus compliquée ou la moins optimisée possible.*
+
+## Date de clôture des contributions : 31 mars à 23h59
 
 ## Gain
 
