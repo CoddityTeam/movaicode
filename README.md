@@ -36,12 +36,12 @@ Vous saviez vous que "un oeuf" et "un 9" ça se dit pareil ? Perso quand je l'ai
 
 Du coup, pour ce mois de fête du Lapinou - autrement appelé Pâques - on vous propose d'écrire la fonction **trouve_un_9_de_paques()** qui va chercher le premier "9" dans une chaîne de caratère donnée - appélée jardin_de_mamie pour des raisons de réalisme - et retourne l'index de celui-ci - ou sa position dans le jardin de mamie si l'on file la métaphore takaptéfrère.
 
-**Évidemment on veut du code écoeurant à souhait. Le genre de code qui te met un placage cathédrale à l'estomac. On veut des boucles for qui font du sparring avec ta glotte.**
+**Évidemment on veut du code écoeurant à souhait. Le genre de code qui te met un placage cathédrale à l'estomac.**
 
 ```python
 def trouve_un_9_de_paques(le_jardin_de_mamie: str) -> int:
     '''
-    Entrée : jardin_de_mamie une chaîne de caractère
+    Entrée : jardin_de_mamie une chaîne de caractères
     Comportement : trouve l'index de la première itération du caractère '9' dans la chaîne de caractère en entrée
     Sortie : position_d_un_9_de_paques un entier représentant l'index de la première itération du caractère '9'
     '''
