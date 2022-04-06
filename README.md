@@ -34,7 +34,7 @@ Qui dit avril dit "Trop hâte de vomir d'une overdose de Kinder suprise". Toutef
 
 Vous saviez vous que "un oeuf" et "un 9" ça se dit pareil ? Perso quand je l'ai appris j'étais sur le cul. Enfin bref.
 
-Du coup, pour ce mois de fête du Lapinou - autrement appelé Pâques - on vous propose d'écrire la fonction **trouve_un_9_de_paques()** qui va chercher le premier "9" dans une chaîne de caratère donnée - appélée jardin_de_mamie pour des raisons de réalisme - et retourne l'index de celui-ci - ou sa position dans le jardin de mamie si l'on file la métaphore takaptéfrère.
+Du coup, pour ce mois de fête du Lapinou - autrement appelé Pâques - on vous propose d'écrire la fonction **trouve_un_9_de_paques()** qui va chercher le premier "9" dans une chaîne de caratères donnée - appélée jardin_de_mamie pour des raisons de réalisme - et retourne l'index de celui-ci - ou sa position dans le jardin de mamie si l'on file la métaphore takaptéfrère.
 
 **Évidemment on veut du code écoeurant à souhait. Le genre de code qui te met un placage cathédrale à l'estomac.**
 
