@@ -73,7 +73,7 @@ Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apér
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/9](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F9)
+On ajoutera le label [movaicode/9](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F10)
 
 
 ## Comment gagner ?
