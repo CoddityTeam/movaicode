@@ -1,11 +1,11 @@
-![](./movaicode-0422.png)
+![](./movaicode-0522.png)
 
-# MOVAI CODE #9 - Un 9 de Pâques est caché dans le jardin de Mamie
+# MOVAI CODE #11 - Festival de Cannes : La montée des marches de Tom Cruise 
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
 
-Recoder indexOf() i.e. trouver le plus petit index d'un caractère donné dans une string.
+Déplacer le premier élément d'une liste en son bout par incrément unitaire.
 
 _______________
 ## Génèse du projet
@@ -28,27 +28,39 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : trouve_un_9_de_paques()
+## Énoncé du sujet : faire_monter_les_marches_de_cannes_a_tom_cruise()
 
-Qui dit avril dit "Trop hâte de vomir d'une overdose de Kinder suprise". Toutefois, afin de bénéficier de ce moment de complicité avec la cuvette de vos toilettes à 2 du mat', il faut d'abord trouver les oeufs que mamie a caché dans le jardin.
+Je lance les paris : qui va se casser la gueule en montant les marches du Festival de Cannes cette année et ainsi se trainer une humiliation mondiale pendant 10 ans mini qui aura un impact conséquent sur la carrière et la santé mentale de notre chuteur ? lol trop hâte
 
-Vous saviez vous que "un oeuf" et "un 9" ça se dit pareil ? Perso quand je l'ai appris j'étais sur le cul. Enfin bref.
+Certainement pas Tom Cruise en tout cas, il est beaucoup trop BG pour ça. Le mec escalade des gratte-ciels en pleine tempête de sable sans assurance, alors c'est pas un petit tapis rouge qui va le faire flancher. Même en escarpins Louboutin il les monte à cloche-pied.
 
-Du coup, pour ce mois de fête du Lapinou - autrement appelé Pâques - on vous propose d'écrire la fonction **trouve_un_9_de_paques()** qui va chercher le premier "9" dans une chaîne de caratère donnée - appélée jardin_de_mamie pour des raisons de réalisme - et retourne l'index de celui-ci - ou sa position dans le jardin de mamie si l'on file la métaphore takaptéfrère.
-
-**Évidemment on veut du code écoeurant à souhait. Le genre de code qui te met un placage cathédrale à l'estomac. On veut des boucles for qui font du sparring avec ta glotte.**
+Justement, pour ce mois de mai, nous vous proposons d'écrire la fonction **faire_monter_les_marches_de_cannes_a_tom_cruise()** qui va faire remonter la string "Tom Cruise" de l'index 0 au bout d'une liste composée de strings "marche", et ce par incrément de 1 (il a beau être un BG intergalactique, monter les marches 2 par 2 à Cannes ça se fait pas wesh un peu de tenue).
 
 ```python
-def trouve_un_9_de_paques(le_jardin_de_mamie: str) -> int:
+le_tapis_rouge = ["Tom Cruise", "marche", "marche", "marche", "marche", "marche", "marche"]
+
+def faire_monter_les_marches_de_cannes_a_tom_cruise(le_tapis_rouge: List[str]) -> List[str]:
     '''
-    Entrée : jardin_de_mamie une chaîne de caractère
-    Comportement : trouve l'index de la première itération du caractère '9' dans la chaîne de caractère en entrée
-    Sortie : position_d_un_9_de_paques un entier représentant l'index de la première itération du caractère '9'
+    Entrée : le_tapis_rouge une liste de string contenant "Tom Cruise" et des "marches" à monter
+    Comportement : fait remonter "Tom Cruise" dans la liste "marche" par "marche"
+    Sortie : le_tapis_rouge une liste de string contenant les "marches" et "Tom Cruise"
     '''
     return position_d_un_9_de_paques
 ```
 
-## Date de clôture des contributions : 30 avril à 23h59
+En gros, voilà le comportement escompté :
+
+```
+>>> ["Tom Cruise", "marche", "marche", "marche", "marche", "marche", "marche"]
+>>> ["marche", "Tom Cruise", "marche", "marche", "marche", "marche", "marche"]
+>>> ["marche", "marche", "Tom Cruise", "marche", "marche", "marche", "marche"]
+>>> ["marche", "marche", "marche", "Tom Cruise", "marche", "marche", "marche"]
+>>> ["marche", "marche", "marche", "marche", "Tom Cruise", "marche", "marche"]
+>>> ["marche", "marche", "marche", "marche", "marche", "Tom Cruise", "marche"]
+>>> ["marche", "marche", "marche", "marche", "marche", "marche", "Tom Cruise"]
+```
+
+## Date de clôture des contributions : 31 mai à 23h59
 
 ## Gain
 
