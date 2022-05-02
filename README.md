@@ -45,7 +45,7 @@ def faire_monter_les_marches_de_cannes_a_tom_cruise(le_tapis_rouge: List[str]) -
     Comportement : fait remonter "Tom Cruise" dans la liste "marche" par "marche"
     Sortie : le_tapis_rouge une liste de string contenant les "marches" et "Tom Cruise"
     '''
-    return position_d_un_9_de_paques
+    return le_tapis_rouge
 ```
 
 En gros, voilà le retour attendu :
