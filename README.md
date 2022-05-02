@@ -5,7 +5,7 @@
 
 ## [TL;DR] Sujet du mois
 
-Déplacer le premier élément d'une liste en son bout par incrément unitaire.
+Déplacer le premier élément d'une liste en son bout.
 
 _______________
 ## Génèse du projet
@@ -34,7 +34,7 @@ Je lance les paris : qui va se casser la gueule en montant les marches du Festiv
 
 Certainement pas Tom Cruise en tout cas, il est beaucoup trop BG pour ça. Le mec escalade des gratte-ciels en pleine tempête de sable sans assurance, alors c'est pas un petit tapis rouge qui va le faire flancher. Même en escarpins Louboutin il les monte à cloche-pied.
 
-Justement, pour ce mois de mai, nous vous proposons d'écrire la fonction **faire_monter_les_marches_de_cannes_a_tom_cruise()** qui va faire remonter la string "Tom Cruise" de l'index 0 au bout d'une liste composée de strings "marche", et ce par incrément de 1 (il a beau être un BG intergalactique, monter les marches 2 par 2 à Cannes ça se fait pas wesh un peu de tenue).
+Justement, pour ce mois de mai, nous vous proposons d'écrire la fonction **faire_monter_les_marches_de_cannes_a_tom_cruise()** qui va faire remonter la string "Tom Cruise" de l'index 0 au bout d'une liste composée de strings "marche". Peu importe les étapes intermédiaires, c'est Tom Cruise ne l'oublions pas, cet homme est incroyable et ne monte certainement pas les marches une par une.
 
 ```python
 le_tapis_rouge = ["Tom Cruise", "marche", "marche", "marche", "marche", "marche", "marche"]
@@ -48,15 +48,9 @@ def faire_monter_les_marches_de_cannes_a_tom_cruise(le_tapis_rouge: List[str]) -
     return position_d_un_9_de_paques
 ```
 
-En gros, voilà le comportement escompté :
+En gros, voilà le retour attendu :
 
 ```
->>> ["Tom Cruise", "marche", "marche", "marche", "marche", "marche", "marche"]
->>> ["marche", "Tom Cruise", "marche", "marche", "marche", "marche", "marche"]
->>> ["marche", "marche", "Tom Cruise", "marche", "marche", "marche", "marche"]
->>> ["marche", "marche", "marche", "Tom Cruise", "marche", "marche", "marche"]
->>> ["marche", "marche", "marche", "marche", "Tom Cruise", "marche", "marche"]
->>> ["marche", "marche", "marche", "marche", "marche", "Tom Cruise", "marche"]
 >>> ["marche", "marche", "marche", "marche", "marche", "marche", "Tom Cruise"]
 ```
 
