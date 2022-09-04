@@ -1,26 +1,26 @@
-![](./movaicode-0522.png)
+![](./movaicode-092022.png)
 
-# MOVAI CODE #11 - Festival de Cannes : La montée des marches de Tom Cruise 
+# MOVAI CODE #12 - Retour au bureau
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
 
-Déplacer le premier élément d'une liste en son bout.
+Compter les éléments d'un tableau existants dans un autre tableau
 
 _______________
 ## Génèse du projet
 
-Bien coder, optimiser, respecter des conventions... Y EN A MARRE ! 
+Bien coder, optimiser, respecter des conventions... Y EN A MARRE !
 
-MOVAI CODE est une bulle d'air pour tous les développeurs. L'occasion de faire faire un infarct' à Robert C. Martin et exploser son linter.
+MOVAI CODE est une bulle d'air pour tous les développeurs. L'occasion de faire faire un infarct' à Robert C. Martin et exploser son linter et faire freezer Sonarqub.
 
-L'espace d'une fonction, nous vous donnons l'occasion de vous lâcher, de montrer au monde à quel point vous pouvez être **nul**. 
+L'espace d'une fonction, nous vous donnons l'occasion de vous lâcher, de montrer au monde à quel point vous pouvez être **nul**.
 
 ## Principe
 
 Ce que l'on vous propose, c'est de prendre la place de l'IA de Github Copilot mais en version maléfique.
 
-Nous vous donnons une fonction, avec ses entrées, son comportement et ses sorties attendues, et c'est à vous de la remplir **de la pire des manières**. 
+Nous vous donnons une fonction, avec ses entrées, son comportement et ses sorties attendues, et c'est à vous de la remplir **de la pire des manières**.
 
 Attention toutefois : IL FAUT QUE ÇA MARCHE !
 
@@ -28,53 +28,63 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : faire_monter_les_marches_de_cannes_a_tom_cruise()
+## Énoncé du sujet : compteurDeMailsPrioritaires()
 
-Je lance les paris : qui va se casser la gueule en montant les marches du Festival de Cannes cette année et ainsi se trainer une humiliation mondiale pendant 10 ans mini qui aura un impact conséquent sur la carrière et la santé mentale de notre chuteur ? lol trop hâte
+Ca y est ! C’est la fin de l’été ! Terminé les bouchons pour aller/partir de la plage! Terminé les p'tits jeunes altruistes qui vous font bénéficier de leurs gouts musicaux sur la plage avec des enceintes diffusant du “Jul”! Terminé la protection 50 qui colle aux doigts !
 
-Certainement pas Tom Cruise en tout cas, il est beaucoup trop BG pour ça. Le mec escalade des gratte-ciels en pleine tempête de sable sans assurance, alors c'est pas un petit tapis rouge qui va le faire flancher. Même en escarpins Louboutin il les monte à cloche-pied.
+C’est le retour au bureau -__-
 
-Justement, pour ce mois de mai, nous vous proposons d'écrire la fonction **faire_monter_les_marches_de_cannes_a_tom_cruise()** qui va faire remonter la string "Tom Cruise" de l'index 0 au bout d'une liste composée de strings "marche". Peu importe les étapes intermédiaires, c'est Tom Cruise ne l'oublions pas, cet homme est incroyable et ne monte certainement pas les marches une par une.
+Et comme tout le monde, on démarre par nettoyer sa boite mail et les 357,5 messages reçus.
 
-```python
-le_tapis_rouge = ["Tom Cruise", "marche", "marche", "marche", "marche", "marche", "marche"]
+Alors pour ce movai code de septembre, on vous propose le défi foufou de coder la fonction compteurDeMailsPrioritaires() :
 
-def faire_monter_les_marches_de_cannes_a_tom_cruise(le_tapis_rouge: List[str]) -> List[str]:
-    '''
-    Entrée : le_tapis_rouge une liste de string contenant "Tom Cruise" et des "marches" à monter
-    Comportement : fait remonter "Tom Cruise" dans la liste "marche" par "marche"
-    Sortie : le_tapis_rouge une liste de string contenant les "marches" et "Tom Cruise"
-    '''
-    return le_tapis_rouge
+- prend en entrée la liste des adresses mails des expéditeurs qui doivent etre traités en priorité et la liste des expediteurs des mails reçus, les deux sous forme d’un tableau de string
+- retourne le nombre de mails prioritaires à traiter
+
+```go
+var prioritaires = []string{”dwight@dunder-mifflin.com”,
+                            “michael@dunder-mifflin.com”,
+                            “phyllis@dunder-mifflin.com”,
+                            }
+
+var expediteurs = []string{”dwight@dunder-mifflin.com”,
+                            “jul@totemproduction.fr”,
+                            “phyllis@dunder-mifflin.com”,
+                            “michael@dunder-mifflin.com”,
+                            “matthieu@coddity.com”,
+                            }
+
+func compteurDeMailsPrioritaires(prioritaires, expediteurs []string) int {
+
+// votre merveilleux code
+
+}
 ```
 
-En gros, voilà le retour attendu :
+Ce qui, pour `compteurDeMailsPrioritaires(prioritaires, expediteurs)`, nous donnerait `3`
 
-```
->>> ["marche", "marche", "marche", "marche", "marche", "marche", "Tom Cruise"]
-```
 
-## Date de clôture des contributions : 31 mai à 23h59
+## Date de clôture des contributions : 30 septembre à 23h59
 
 ## Gain
 
-Un t-shirt MOVAI CODE floqué de votre code (existe aussi en blanc), et un apéro avec nous si vous êtes ou passez sur Paris !
+Un t-shirt MOVAI CODE, et un apéro avec nous si vous êtes ou passez sur Paris !
 
 ![](./tshirt-movaicode.png)
 
 
-## Comment jouer ? 
+## Comment jouer ?
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/9](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F10)
+On ajoutera le label [movaicode/12](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F12)
 
 
 ## Comment gagner ?
 
 La communauté décide ! (ses bo)
 
-Chacun peut upvote ses contributions favorites. Une semaine après la clôture des contributions, l'issue avec le plus d'upvotes gagne ! 
+Chacun peut upvote ses contributions favorites. Une semaine après la clôture des contributions, l'issue avec le plus d'upvotes gagne !
 
 Note : vous pouvez évidemment downvote et insulter les contributions les moins movaises, mais c'est méchant et ça ne sert à rien.
 
