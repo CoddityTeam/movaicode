@@ -1,11 +1,11 @@
-![](./movaicode-102022.png)
+![](./movaicode-092022.png)
 
-# MOVAI CODE #13 - Spécial triskaïdékaphobie !
+# MOVAI CODE #12 - Retour au bureau
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
 
-Attendre 13 secondes, plus connu sous le nom de sleep() ou wait() dans les langages évolués
+Compter les éléments d'un tableau existants dans un autre tableau
 
 _______________
 ## Génèse du projet
@@ -28,33 +28,43 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : wait13()
+## Énoncé du sujet : compteurDeMailsPrioritaires()
 
-[le sachiez-vous ?] La triskaïdékaphobie est la peur du nombre 13 ! C’est à cause d’elle que vous ne pouvez pas être placé en 13A coté hublot dans un avion, ou avoir un appartement au 13ème étage à New York (ouais, peut etre aussi le prix 🥲), parce que, pour des raisons de superstitions, les deux n'existent pas.
+Ca y est ! C’est la fin de l’été ! Terminé les bouchons pour aller/partir de la plage! Terminé les p'tits jeunes altruistes qui vous font bénéficier de leurs gouts musicaux sur la plage avec des enceintes diffusant du “Jul”! Terminé la protection 50 qui colle aux doigts !
 
-Mais keskecavienfair dans un concours de movai dev ? Et bien c’est la **treizième** édition de Movai Code ! Et comme on a peur de rien, on a mis de coté l’éternel sujet autour du changement d’heure du mois d'octobre, pour vous faire plancher sur le sujet le plus simple depuis la création de Movai Code et qui, fun fact, n'a rien à voir avec la triskaïdékaphobie ! (A part vous permettre de vous la raconter auprès de votre famille/amis/collègues avec ce mot imprononcable)
+C’est le retour au bureau -__-
 
-Pour cette édition, on vous propose de coder la fonction **wait13()** :
+Et comme tout le monde, on démarre par nettoyer sa boite mail et les 357,5 messages reçus.
 
-- Aucune entrée
-- Aucune sortie
-- Attend juste 13 secondes
+Alors pour ce movai code de septembre, on vous propose le défi foufou de coder la fonction compteurDeMailsPrioritaires() :
 
-(Evidemment votre code peut faire plein de trucs pendant ce temps, faut juste qu'il tienne 13 secondes précisement)
+- prend en entrée la liste des adresses mails des expéditeurs qui doivent etre traités en priorité et la liste des expediteurs des mails reçus, les deux sous forme d’un tableau de string
+- retourne le nombre de mails prioritaires à traiter
 
-```typescript
+```go
+var prioritaires = []string{”dwight@dunder-mifflin.com”,
+                            “michael@dunder-mifflin.com”,
+                            “phyllis@dunder-mifflin.com”,
+                            }
 
-function wait13(){
+var expediteurs = []string{”dwight@dunder-mifflin.com”,
+                            “jul@totemproduction.fr”,
+                            “phyllis@dunder-mifflin.com”,
+                            “michael@dunder-mifflin.com”,
+                            “matthieu@coddity.com”,
+                            }
+
+func compteurDeMailsPrioritaires(prioritaires, expediteurs []string) int {
 
 // votre merveilleux code
 
 }
-
 ```
 
-Simple non?
+Ce qui, pour `compteurDeMailsPrioritaires(prioritaires, expediteurs)`, nous donnerait `3`
 
-## Date de clôture des contributions : 31 octobre à 23h59
+
+## Date de clôture des contributions : 30 septembre à 23h59
 
 ## Gain
 
@@ -67,7 +77,7 @@ Un t-shirt MOVAI CODE, et un apéro avec nous si vous êtes ou passez sur Paris 
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/12](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F13)
+On ajoutera le label [movaicode/12](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F12)
 
 
 ## Comment gagner ?
@@ -114,18 +124,5 @@ Tous :
  - ...
  - et même PHP
 
-
-# Pour la bonne cause
-
-Movai Code c'est aussi une [boutique en ligne]([https:shop](https://shop.movaicode.fr/)) vous permettant d'afficher fièrement vos compétences au quotidien. Tous les bénéfices réalisés sont reversés à la [fondation Mozilla](https://foundation.mozilla.org/fr/).
-
-La collection couvre pour le moment:
-- Clean Code
-- Git
-- TypeScript
-
-A venir : PHP, JAVA, PYTHON, GOLANG
-
-![](boutique.png)
 
 # BON CHANCE
