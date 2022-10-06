@@ -67,7 +67,7 @@ Un t-shirt MOVAI CODE, et un apéro avec nous si vous êtes ou passez sur Paris 
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/12](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F13)
+On ajoutera le label [movaicode/13](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F13)
 
 
 ## Comment gagner ?
