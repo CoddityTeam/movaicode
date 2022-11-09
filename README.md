@@ -1,11 +1,11 @@
-![](./movaicode-102022.png)
+![](./movaicode-112022.png)
 
-# MOVAI CODE #13 - Spécial triskaïdékaphobie !
+# MOVAI CODE #14 - Vive la matroustache !
 # Le concours du pire développeur de France - half-proudly by [Coddity](https://www.coddity.com/)
 
 ## [TL;DR] Sujet du mois
 
-Attendre 13 secondes, plus connu sous le nom de sleep() ou wait() dans les langages évolués
+Modifier les valeurs d'une matrice
 
 _______________
 ## Génèse du projet
@@ -28,33 +28,70 @@ Laissez libre court à votre imagination, ça semble facile de faire n'importe q
 
 Note : vous pouvez tout à fait participer plusieurs fois.
 
-## Énoncé du sujet : wait13()
+## Énoncé du sujet : taille_de_stache()
 
-[le sachiez-vous ?] La triskaïdékaphobie est la peur du nombre 13 ! C’est à cause d’elle que vous ne pouvez pas être placé en 13A coté hublot dans un avion, ou avoir un appartement au 13ème étage à New York (ouais, peut etre aussi le prix 🥲), parce que, pour des raisons de superstitions, les deux n'existent pas.
+Pour la première fois dans l’histoire de movai code, on va travailler sur une matrice !
 
-Mais keskecavienfair dans un concours de movai dev ? Et bien c’est la **treizième** édition de Movai Code ! Et comme on a peur de rien, on a mis de coté l’éternel sujet autour du changement d’heure du mois d'octobre, pour vous faire plancher sur le sujet le plus simple depuis la création de Movai Code et qui, fun fact, n'a rien à voir avec la triskaïdékaphobie ! (A part vous permettre de vous la raconter auprès de votre famille/amis/collègues avec ce mot imprononcable)
+Le mois de Novembre, c’est le mois de Movember, le mois de la moustache en signe de lutte contre le cancer de la prostate !
 
-Pour cette édition, on vous propose de coder la fonction **wait13()** :
+Mais quel est le lien entre la moustache et une matrice ??
 
-- Aucune entrée
-- Aucune sortie
-- Attend juste 13 secondes
+Considérons une moustache comme une matrice de 60 poils en 10*6 (c’est une petite moustache, la moyenne des moustaches comportant 600 poils - true fact), les valeurs de chaque élément de la matrice seront la longueur du poil concerné. Notre matrice moustache est née, appelons la ***matroustache***.
 
-(Evidemment votre code peut faire plein de trucs pendant ce temps, faut juste qu'il tienne 13 secondes précisement)
+Comme dans toute belle stache, les poils supérieurs sont plus grand que les poils inférieurs (oui vraiment, sinon c’est vraiment hideux), ce qui veut dire que dans un monde idéal, la ***matroustache idéale*** aurait cette forme :
 
-```typescript
+```
+ 10  10  10  10  10  10  10  10  10  10
+  9   9   9   9   9   9   9   9   9   9
+  8   8   8   8   8   8   8   8   8   8
+  7   7   7   7   7   7   7   7   7   7
+  6   6   6   6   6   6   6   6   6   6
+  5   5   5   5   5   5   5   5   5   5
+```
 
-function wait13(){
+Cependant, dans la réalité, la pousse de poils est très irrégulière, et il n’est pas rare d’avoir des poils plus longs que les autres, la ***matroustache réelle*** a plutôt cette forme là :
 
-// votre merveilleux code
+```
+ 10  10  10  15  10  12  10  11  10  10
+  9  12   9   9   9   9  10   9   9   9
+  8   8  10   8   9   8   8   8  10   8
+  7   7   7   7  10   7   7   9   8   7
+  6   8   7   6   6  10   9   8   6   6
+  5   5   6   6   5   5   5  10   9   5
+```
 
-}
+(vous remarquerez que nous n'avons pris que des poils plus longs).
+
+“Ok d’accord, mais maintenant on quoi Jammy?”
+
+Pour cette édition, on vous propose de coder la fonction taille_de_stache() :
+
+- prend en entrée la ***matroustache réelle***
+- doit retourner la matroustache taillée correspondant à la ***matroustache idéale***
+
+Il y a des boucles, de l’intelligence artificielle avec des if, et si vous etes joueur, vous pouvez meme prendre le cas de poils trop courts pour une ligne donnée !
+
+```python
+
+matroustache_reelle = [[10,10,10,15,10,12,10,11,10,10],
+                        [9,12,9,9,9,9,10,9,9,9],
+                        [8,8,10,8,9,8,8,8,10,8],
+                        [7,7,7,7,10,7,7,9,8,7],
+                        [6,6,7,9,8,6,6,6,8,6],
+                        [5,5,6,7,8,5,10,9,5,6]]
+
+def taille_de_stache(matroustache_reelle):
+  '''
+  votre code ici
+  '''
+  return matroustache
 
 ```
 
-Simple non?
+Si vous avez bien suivi, le code doit nous retourner :
+`>>> [[10,10,10,10,10,10,10,10,10,10],[9,9,9,9,9,9,9,9,9,9],[8,8,8,8,8,8,8,8,8,8],[7,7,7,7,7,7,7,7,7,7],[6,6,6,6,6,6,6,6,6,6],[5,5,5,5,5,5,5,5,5,5]]`
 
-## Date de clôture des contributions : 31 octobre à 23h59
+## Date de clôture des contributions : 30 novembre à 23h59
 
 ## Gain
 
@@ -67,7 +104,7 @@ Un t-shirt MOVAI CODE, et un apéro avec nous si vous êtes ou passez sur Paris 
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/13](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F13)
+On ajoutera le label [movaicode/14](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F14)
 
 
 ## Comment gagner ?
@@ -114,18 +151,5 @@ Tous :
  - ...
  - et même PHP
 
-
-# Pour la bonne cause
-
-Movai Code c'est aussi une [boutique en ligne]([https:shop](https://shop.movaicode.fr/)) vous permettant d'afficher fièrement vos compétences au quotidien. Tous les bénéfices réalisés sont reversés à la [fondation Mozilla](https://foundation.mozilla.org/fr/).
-
-La collection couvre pour le moment:
-- Clean Code
-- Git
-- TypeScript
-
-A venir : PHP, JAVA, PYTHON, GOLANG
-
-![](boutique.png)
 
 # BON CHANCE
