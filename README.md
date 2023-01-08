@@ -1,4 +1,4 @@
-![](./movaicode-122023.png)
+![](./movaicode-012023.png)
 
 # MOVAI CODE #16 - Janvier sec
 
@@ -50,7 +50,7 @@ POIREAUX
 
 ```js
 /**
-* Fonction qui dépile une pile LIFO en supprimant les éléments dans la liste IPA, RED BULL, 8.6
+* Fonction qui traite uhne structure de données en supprimant les éléments dans la liste IPA, RED BULL, 8.6
  */
 function viderLeBacALegumes(bac);
 
