@@ -1,6 +1,6 @@
-![](./movaicode-012023.png)
+![](./movaicode-022023.png)
 
-# MOVAI CODE #16 - Janvier sec
+# MOVAI CODE #17 - La Bretagne to the moon
 
 ## Le concours du·de la pire développeur·euse de France
 
@@ -18,56 +18,45 @@ Attention toutefois : IL FAUT QUE ÇA MARCHE ! Cela semble facile mais finalemen
 
 ## [TL;DR]
 
-Supprimer des éléments d'une structure de données
+Calculer une surface
 
-## Janvier sec
+## La Bretagne to the moon
 
-C'est le mois de Janvier, et vous avez tellement forcé sur la fin d'année que vous vous décidez de vous prendre (enfin) en main et demandez à ChatGPT ce que vous devez faire (ouais, celle-ci, il va falloir s'y habituer). La sentence est sans appel :  vous devez vous lancer dans un **janvier sec** !
+S'il y a bien un truc de bien que nous a donné la Bretagne, c'est le Mont Saint Michel. Non je déconne, ça, c'est la Normandie. #TROLL
 
-Mais comment faire? là encore les conseils affluent : de la volonté et encore de la volonté. Vous décidez même de supprimer toutes les sources de tentations et en premier lieu de transformer le bac à bière du réfrigérateur en bac à légumes !
+Evidemment, les crêpes !
 
-L'objectif du movai code du mois est de vider votre bac à légumes de toutes choses qui n'ont rien à y faire et qui vont vous empecher de réussir votre Janvier Sec !
-Nous vous laissons le choix de la structure de donnée qui représente le bac (tableau, dictionnaire, pile LIFO, etc), il ne faudra conserver que les légumes. FACILE.
-Et ouais, en plus de vos compétences en Movai développement, vous pouvez ce mois-ci montrer vos compétences en movaise modelisation \o/
+Ce mois-ci, nous vous proposons le challenge suivant : à partir d'une quantité d'ingrédients fournis, calculer la surface (en m2) pouvant être couverte par la crêpe cuisinée avec ces quantités.
 
-Un bac :
-IPA
-FENOUIL
-TOMATE
-RED BULL
-8.6
-SALADE
-POIREAUX
+(Le défi caché est de savoir combien de farine, d'oeuf, de lait, de beurre et de sucre  sont nécessaires pour recouvrir la lune d'une crèpe et d'en faire un fief breton - parce que pourquoi pas)
 
-va devenir
 
-FENOUIL
-TOMATE
-SALADE
-POIREAUX
+**Les données de départ :**
+- 1 crêpe fait en moyenne 27cm de diamètre, soit 572cm2, soit 0.06m2 (arrondi)
+- pour faire **1** crêpe, il faut :
+  - 1/4 d'oeuf
+  - 20g de farine
+  - 3,5g de beurre
+  - 4cl de lait
+  - 1/4 de morceaux de sucre
+  - (pour les plus téméraires, 1/3cl de rhum)
 
-(ok c'est un grand bac à légumes)
+**To the moon**
 
-```js
-/**
-* Fonction qui traite uhne structure de données en supprimant les éléments dans la liste IPA, RED BULL, 8.6
- */
-function viderLeBacALegumes(bac);
+Vous devez coder la fonction `calculSurfaceCrepe`  qui va prendre en entrée un objet `ingredients` contenant les quantités d'`oeuf`, `farine`, `beurre`, de `lait` et de `sucre` et va retourner la surface recouverte en m2 par la crêpe cuisinée avec ces quantités.
 
-let  bac = ["IPA","FENOUIL","TOMATE","REDBULL","8.6","SALADE","POIREAUX"]
+Evidemment, si vous voulez impressionner vos parents et amis, vous pouvez prendre en entrée un deuxième  paramètre : l'unité de mesure de la surface qui peut être `cm2`, `m2`, `km2` et retourner la valeur de la surface avec la bonne unité !
 
-console.log(viderLeBacALegumes(bac));
+A vos claviers et to the moon 🚀
 
->>> ["FENOUIL","TOMATE","SALADE","POIREAUX"]
-```
 
 ## Comment jouer ?
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/16](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F16).
+On ajoutera le label [movaicode/17](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F17).
 
-Date de clôture des contributions : **31 janvier 2023 à 23h59**
+Date de clôture des contributions : **28 février 2023 à 23h59**
 
 ## Langages acceptés
 
