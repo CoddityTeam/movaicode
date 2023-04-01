@@ -1,6 +1,6 @@
-![](./movaicode-032023.png)
+![](./movaicode-042023.png)
 
-# MOVAI CODE #18 - Réinitialisation des signes astrologiques
+# MOVAI CODE #19 - MOVAI PROMPT (le future is là)
 
 ## Le concours du·de la pire développeur·euse de France
 
@@ -18,43 +18,36 @@ Attention toutefois : IL FAUT QUE ÇA MARCHE ! Cela semble facile mais finalemen
 
 ## [TL;DR]
 
-Donner le signe astrologique en fonction de la date
+Utiliser un prompt ChatGPT pour remplacer des caractères dans une chaine.
 
-## ["Bélier", ..., "Poisson"]
+## Prompt engineer
 
-Le mois de mars, c'est un peu le mois de novembre du début de l'année. Il ne se passe RIEN, enfin presque, il y a le printemps, des giboulés et un changement d'heure. 
+Ca y est, on en a tous rêvé, OpenAI l'a fait : vous donner un parfait stagiaire à portée de clic, qui va pouvoir faire vos tâches ingrates sans jamais pouvoir vous dire non (enfin pour l'instant). *(pour ceux qui ne regardent pas la TV, on parle de ChatGPT, ils en ont même parlé chez Hanouna)*
 
-MAIS AUSSI c'est **la réinitialisation annuelle des signes astrologiques** !
+Le futur, c'est maintenant. 
 
-Pour fêter ça, on vous demande de créer une fonction qui donne le signe astrologique en fonction d'une date donnée 
+Ce MOVAI CODE d'avril se transforme pour cette édition en **MOVAI PROMPT** avec un objectif simple : vous devez faire produire à ChatGPT le pire code qui soit avec quelques contraintes :
+- Le code doit sortir en un seul prompt (pas de conversation)
+- Vous êtes limité à la version 3.5 (celle accessible gratuitement pour l'égalité des chances)
+- Le language reste au choix (vous pouvez lui demander d'en créer un)
 
-Pour faire simple, on part sur un format de date `JJ/MM/AAAA` (les plus téméraires peuvent choisir plusieurs format : ISO8601, Unix timestamp ou encore RFC2822)
+Le sujet ? écrire une fonction qui va changer un caractère donné dans une chaine donnée par des `*`
+Exemple `changerUnCaractere(leCaractereAChanger, laChaine)` avec `changerUnCaractere("o", "movai prompt")` va retourner `m*vai pr*mpt`.
 
-Par souci d'équité, vous trouverez les dates officielles des signes astrologiques, publiées et validées par l'ONCAMI ([Office National des Cabinets d'Astrologie et Mediums d'Intérieur](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) :
+Facile.
 
-- Bélier 	21 mars - 20 avril 	♈ 	Feu
-- Taureau 	21 avril - 20 mai 	♉ 	Terre
-- Gémeaux 	21 mai - 21 juin 	♊ 	Air
-- Cancer 	22 juin - 22 juillet 	♋ 	Eau
-- Lion 	23 juillet - 22 août 	♌ 	Feu
-- Vierge 	23 août - 22 septembre 	♍ 	Terre
-- Balance 	23 septembre - 22 octobre 	♎ 	Air
-- Scorpion 	23 octobre - 22 novembre 	♏ 	Eau
-- Sagittaire 	23 novembre - 21 décembre 	♐ 	Feu
-- Capricorne 	22 décembre - 20 janvier 	♑ 	Terre
-- Verseau 	21 janvier - 18 février 	♒ 	Air
-- Poissons 	19 février - 20 mars 	♓ 	Eau
-
-A vos claviers 🚀
-
+Pour les réponses nous vous demanderons (comme d'habitude en issue) :
+- le prompt
+- le code produit
+- un screen du prompt et du code
 
 ## Comment jouer ?
 
 En créant une issue [sur le repo](https://github.com/CoddityTeam/movaicode/issues), avec votre movai code et des commentaires si besoin.
 
-On ajoutera le label [movaicode/18](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F18).
+On ajoutera le label [movaicode/19](https://github.com/CoddityTeam/movaicode/labels/movaicode%2F19).
 
-Date de clôture des contributions : **31 mars 2023 à 23h59**
+Date de clôture des contributions : **30 avril 2023 à 23h59**
 
 ## Langages acceptés
 
